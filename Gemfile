@@ -16,6 +16,7 @@ gem "rack-contrib", "~> 2.3"
 # https://github.com/cyu/rack-cors
 gem "rack-cors", "~> 1.1"
 
+
 # An object-relational mapper
 # https://guides.rubyonrails.org/active_record_basics.html
 gem "activerecord", "~> 6.1"
@@ -27,6 +28,8 @@ gem "sinatra-activerecord", "~> 2.0"
 # Run common tasks from the command line
 # https://github.com/ruby/rake
 gem "rake", "~> 13.0"
+
+gem 'faker'
 
 # Provides functionality to interact with a SQLite3 database
 gem "sqlite3", "~> 1.4"
